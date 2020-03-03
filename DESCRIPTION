@@ -2,11 +2,11 @@ Package: networkABC
 Type: Package
 Title: Network Reverse Engineering with Approximate Bayesian
         Computation
-Version: 0.6-0
-Date: 2020-01-31
+Version: 0.7-0
+Date: 2020-03-03
 Depends: R (>= 3.0.0)
 Imports: RColorBrewer, network, sna
-Suggests: PCIT, ggplot2, knitr
+Suggests: ggplot2, knitr
 Authors@R: c(
 	person(given = "Frederic", family= "Bertrand", role = c("cre", "aut"), email = "frederic.bertrand@math.unistra.fr", comment = c(ORCID = "0000-0002-0837-8281")),
 	person(given = "Myriam", family= "Maumy-Bertrand", role = c("aut"), email = "myriam.maumy-bertrand@math.unistra.fr", comment = c(ORCID = "0000-0002-4615-1512")),
@@ -32,6 +32,6 @@ URL: http://www-irma.u-strasbg.fr/~fbertran/,
         https://github.com/fbertran/networkABC
 BugReports: https://github.com/fbertran/networkABC/issues
 RoxygenNote: 7.0.0
-Packaged: 2020-02-06 23:28:17 UTC; fbertran
+Packaged: 2020-03-03 08:16:51 UTC; fbertran
 Repository: CRAN
-Date/Publication: 2020-02-07 05:50:02 UTC
+Date/Publication: 2020-03-03 09:00:07 UTC

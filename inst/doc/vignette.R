@@ -15,7 +15,6 @@ require(network)
 plot(network(net$network))
 
 ## -----------------------------------------------------------------------------
-require(PCIT)
 f<-function(a){
   a<-a[!is.nan(a)]
 }
@@ -26,7 +25,7 @@ clco<-rep(0,500)
 for(i in 1:500){
   N<-network_gen(500,.33)$net
   N<-N+t(N)
-  clco[i]<-mean(f(abs(PCIT::clusteringCoefficient(N))))
+  clco[i]<-mean(f(abs(networkABC::clusteringCoefficient(N))))
 }
 
 ## -----------------------------------------------------------------------------
